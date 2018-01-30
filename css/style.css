@@ -1,0 +1,79 @@
+
+
+//======================================================================
+
+
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2%;
+  font-family: "Comic Sans MS", cursive, sans-serif, fantasy;
+  background-color: rgb(134, 158, 160);
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 20px;
+  font-weight: 50;
+}
+
+video, audio, .mejs__container {
+  display: block;
+
+}
+
+.mejs__container {
+  margin: 0 auto;
+}
+
+#video--wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tran--script{
+  margin: 2px;
+}
+
+.highlight {
+  color: rgb(247, 148, 9);
+}
+
+.mejs__container .mejs__controls  {
+  background: linear-gradient(transparent, rgb(102, 111, 112), rgb(104, 53, 48));
+
+}
+.mejs__controls button:hover{
+  opacity: 0.30;
+
+}
+
+
+
+
+
+
+@media (min-width: 768px )  {
+
+
+
+
+  p {
+    margin-top: 40px;
+  }
+
+  #video--wrapper{
+    width: 768px;
+    margin: 20px auto;
+  }
+
+  .tran--script{
+    margin: 10px 0;
+  }
+}
